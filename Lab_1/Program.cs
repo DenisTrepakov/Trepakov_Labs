@@ -24,3 +24,6 @@ void Factorial(int number)
 }
 
 Factorial(a);
+
+//hello world!
+Console.WriteLine("Привет, мир!");
