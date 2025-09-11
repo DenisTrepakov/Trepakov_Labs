@@ -50,10 +50,43 @@ public class Program
             double result = Calculate(x);
             Console.WriteLine($"Функция = {result}");
         }
-        
+
+        void Fibonacci()
+        {
+            Console.WriteLine("Введите число для расчета последовательности Фибоначчи:");
+            int x = Convert.ToInt32(Console.ReadLine());
+            
+            if (x < 0)
+            {
+                Console.WriteLine("Нет чисел Фибоначчи в диапазоне [0, x], если x < 0.");
+                return;
+            }
+            
+            Console.WriteLine("Последовательность:");
+            
+            int a = 0;
+            int b = 1;
+            Console.Write(a);
+            
+            if (x >= 1)
+            {
+                Console.Write(", " + b);
+            }
+
+            while (true)
+            {
+                int next = a + b;
+                if (next >= x)
+                    break;
+                Console.Write(", " + next);
+                a = b;
+                b = next;
+            }
+        }
         
         // Вызов 
-        Term2();
+        //Term2();
         //first();
+        Fibonacci();
     }
 }
