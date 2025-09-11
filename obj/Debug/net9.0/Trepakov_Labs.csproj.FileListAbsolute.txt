@@ -1,0 +1,15 @@
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/bin/Debug/net9.0/Trepakov_Labs
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/bin/Debug/net9.0/Trepakov_Labs.deps.json
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/bin/Debug/net9.0/Trepakov_Labs.runtimeconfig.json
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/bin/Debug/net9.0/Trepakov_Labs.dll
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/bin/Debug/net9.0/Trepakov_Labs.pdb
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.AssemblyInfoInputs.cache
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.AssemblyInfo.cs
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.csproj.CoreCompileInputs.cache
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.dll
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/refint/Trepakov_Labs.dll
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.pdb
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.genruntimeconfig.cache
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/ref/Trepakov_Labs.dll
+/Users/denistrepakov/RiderProjects/Trepakov_Labs/Trepakov_Labs/obj/Debug/net9.0/Trepakov_Labs.sourcelink.json
