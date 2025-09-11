@@ -87,6 +87,6 @@ public class Program
         // Вызов 
         //Term2();
         //first();
-        Fibonacci();
+        //Fibonacci();
     }
 }
