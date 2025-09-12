@@ -1,4 +1,6 @@
-﻿namespace Trepakov_Labs.Lab_1;
+﻿using System.Numerics;
+
+namespace Trepakov_Labs.Lab_1;
 
 using System;
 
@@ -10,12 +12,12 @@ public class Program
         void first()
         {
             Console.WriteLine("Введите число для расчета факториала:");
-            int a = Convert.ToInt32(Console.ReadLine());
+            uint a = Convert.ToUInt32(Console.ReadLine());
             Factorial(a);
         }
 
         // Локальная функция — без модификатора доступа
-        void Factorial(int number)
+        void Factorial(uint number)
         {
             if (number <= 0)
             {
@@ -23,8 +25,8 @@ public class Program
                 return;
             }
 
-            int result = 1;
-            for (int i = 1; i <= number; i++)
+            uint result = 1;
+            for (uint i = 1; i <= number; i++)
             {
                 result *= i;
             }
@@ -84,9 +86,44 @@ public class Program
             }
         }
 
+        void TeylorStart()
+        {
+            double x = 1.0;
+            Console.Write("Введите количество знаков после запятой: ");
+
+            if (!int.TryParse(Console.ReadLine(), out int precision) || precision < 0)
+            {
+                Console.WriteLine("Ошибка: Введите корректное неотрицательное количество.");
+                return;
+            }
+            
+            double epsilon = 0.5 * Math.Pow(10, -precision);
+            double result = expTeylor(x, epsilon);
+            
+            string format = "F" + precision;
+            Console.WriteLine($"e^{x} ≈ {result.ToString(format)}");
+            
+        }
+
+        static double expTeylor(double x, double epsilon)
+        {
+            double sum = 1.0;
+            double term = 1.0;
+            int n = 1;
+
+            while (Math.Abs(term) > epsilon)
+            {
+                term *= x / n;
+                sum += term;
+                n++;
+            }
+            return sum;
+        }
+
         // Вызов 
         //Term2();
         //first();
-        Fibonacci();
+        //Fibonacci();
+        TeylorStart();
     }
 }
